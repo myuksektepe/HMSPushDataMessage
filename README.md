@@ -13,9 +13,11 @@ Url:
 https://login.cloud.huawei.com/oauth2/v2/token
 
 Body:
+```
 grant_type:client_credentials
 client_id:CLIENT_ID
 client_secret:CLIENT_SECRET
+```
 
 <br><br>
 
@@ -30,9 +32,11 @@ Url:
 https://oauth-login.cloud.huawei.com/oauth2/v3/token
 
 Body:
+```
 grant_type:client_credentials
 client_id:CLIENT_ID
 client_secret:CLIENT_SECRET
+```
 
 <br><br>
 
@@ -46,8 +50,9 @@ Url:
 https://push-api.cloud.huawei.com/v1/APP_ID/messages:send
 
 Authorication:
+```
 Bearer TOKEN
-
+```
 
 <br><br>
 
