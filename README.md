@@ -113,7 +113,7 @@ Bearer TOKEN
             small_icon
         </td>
         <td>
-            if is null it's mean R.mipmap.ic_launcer, if not you can select any image from R.drawable.____  
+            if is null it's mean R.mipmap.ic_launcer. If not, you can select any image from R.drawable.____  
         </td>
         <td></td>
     </tr>
