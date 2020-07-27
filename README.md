@@ -17,6 +17,8 @@ grant_type:client_credentials
 client_id:CLIENT_ID
 client_secret:CLIENT_SECRET
 
+<br><br>
+
 <img src="https://www.yuklio.com/f/qk7dg-create_token_v2.png">
 
 ------------------------------------------
@@ -32,6 +34,8 @@ grant_type:client_credentials
 client_id:CLIENT_ID
 client_secret:CLIENT_SECRET
 
+<br><br>
+
 <img src="https://www.yuklio.com/f/KaUCn-create_token_v3.png">
 
 ------------------------------------------
@@ -44,10 +48,17 @@ https://push-api.cloud.huawei.com/v1/APP_ID/messages:send
 Authorication:
 Bearer TOKEN
 
+
+<br><br>
+
 <img src="https://www.yuklio.com/f/mNQMe-send_data_auth_2.png">
 
 
+<br><br>
+
 Body (Sample):
+
+```json
 {
     "validate_only": false,
     "message": {
@@ -57,7 +68,7 @@ Body (Sample):
         ]
     }
 }
-
+```
 
 <img src="https://www.yuklio.com/f/6diTM-send_data_message.png">
 
@@ -65,6 +76,7 @@ Body (Sample):
 
 ## Variables
 
+```json
 {
     "type": "notification", // or "data" (Require)
     "title": "TITLE", (Require)
@@ -78,5 +90,5 @@ Body (Sample):
 
     "data": {\"key\":\"value\",\"key2\":\"value2\"}
 }
-
+```
 
