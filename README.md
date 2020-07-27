@@ -60,25 +60,7 @@ Bearer TOKEN
 
 <img src="https://www.yuklio.com/f/mNQMe-send_data_auth_2.png">
 
-
 <br><br>
-
-Body (Sample):
-
-```json
-{
-    "validate_only": false,
-    "message": {
-        "data": "{\"type\": \"notification\", \"style\": \"big_text\", \"title\": \"NOTIFICATION TITLE\", \"content\": \"CONTENT\", \"big_text\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\", \"small_icon\": \"custom_icon\",  \"on_click\": \"open_app\", \"data\": {\"key\":\"value\",\"key2\":\"value2\"} }",
-        "token": [
-            "DEVICE_TOKEN"
-        ]
-    }
-}
-```
-
-<img src="https://www.yuklio.com/f/6diTM-send_data_message.png">
-
 
 
 ## Variables
@@ -174,3 +156,21 @@ Body (Sample):
         <td></td>
     </tr>
 </table>
+
+<br>
+
+Body (Sample):
+
+```json
+{
+    "validate_only": false,
+    "message": {
+        "data": "{\"type\": \"notification\", \"style\": \"big_text\", \"title\": \"NOTIFICATION TITLE\", \"content\": \"CONTENT\", \"big_text\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\", \"small_icon\": \"custom_icon\",  \"on_click\": \"open_app\", \"data\": {\"key\":\"value\",\"key2\":\"value2\"} }",
+        "token": [
+            "DEVICE_TOKEN"
+        ]
+    }
+}
+```
+
+<img src="https://www.yuklio.com/f/exEWE-send_data_message_2.png">
