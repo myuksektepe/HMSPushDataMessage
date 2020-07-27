@@ -83,8 +83,7 @@ Body (Sample):
 
 ## Variables
 
-<table width="100%">
-    <thead>
+<table>
         <tr>
             <td>
                 Variable
@@ -96,20 +95,15 @@ Body (Sample):
                 Require
             </td>
         </tr>
-    </thead>
-    <tbody>
     <tr>
         <td>
             type
         </td>
         <td>
-            "notification" or null for "data" 
+            "notification" or null for "data"
         </td>
-        <td>
-            
-        </td>
+        <td></td>
     </tr>
-    
     <tr>
         <td>
             title
@@ -121,7 +115,6 @@ Body (Sample):
             *
         </td>
     </tr>
-    
     <tr>
         <td>
             content
@@ -133,8 +126,6 @@ Body (Sample):
             *
         </td>
     </tr>
-    
-    
     <tr>
         <td>
             small_icon
@@ -142,11 +133,8 @@ Body (Sample):
         <td>
             if is null it's mean R.mipmap.ic_launcer, if not you can select any image from R.drawable.____  
         </td>
-        <td>
-            
-        </td>
+        <td></td>
     </tr>
-    
     <tr>
         <td>
             style
@@ -154,11 +142,8 @@ Body (Sample):
         <td>
             "big_text" for Arama Sonuçları Notification.BigTextStyle or you can set null for normal style
         </td>
-        <td>
-            
-        </td>
+        <td></td>
     </tr>
-    
     <tr>
         <td>
             big_text
@@ -170,7 +155,6 @@ Body (Sample):
             If you set style of "big_text"
         </td>
     </tr>
-    
     <tr>
         <td>
             on_click
@@ -178,12 +162,8 @@ Body (Sample):
         <td>
             Default is "open_app" or you can write custom value 
         </td>
-        <td>
-            
-        </td>
+        <td></td>
     </tr>
-    
-    
     <tr>
         <td>
             data
@@ -191,10 +171,6 @@ Body (Sample):
         <td>
             Be careful about this variable's type. It is must be String. For example; {\"key\":\"value\",\"key2\":\"value2\"}
         </td>
-        <td>
-            
-        </td>
+        <td></td>
     </tr>
-    
-    </tbody>
 </table>
