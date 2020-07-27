@@ -4,6 +4,8 @@ HMS Push Kit - Data Message to Notification
 ## Server Side
 (using Postman)
 
+<hr>
+<br>
 
 ## 1 - Create Token
 
@@ -81,19 +83,118 @@ Body (Sample):
 
 ## Variables
 
-```json
-{
-    "type": "notification", // or "data" (Require)
-    "title": "TITLE", (Require)
-    "content": "CONTENT TEXT", (Require)
-
-    "small_icon": "", // if is null it's mean R.mipmap.ic_launcer, if not you can select any image from R.drawable.____ 
-    "style": "", // if is null it's mean normal or you can write "big_text"
-    "big_text": "", // if "style" is "big_text" this field must be full
+<table width="100%">
+    <thead>
+        <tr>
+            <td>
+                Variable
+            </td>
+            <td>
+                Description
+            </td>
+            <td>
+                Require
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            type
+        </td>
+        <td>
+            "notification" or null for "data" 
+        </td>
+        <td>
+            
+        </td>
+    </tr>
     
-    "on_click": "", //if is null it's mean "open_app"
-
-    "data": {\"key\":\"value\",\"key2\":\"value2\"}
-}
-```
-
+    <tr>
+        <td>
+            title
+        </td>
+        <td>
+            String 
+        </td>
+        <td>
+            *
+        </td>
+    </tr>
+    
+    <tr>
+        <td>
+            content
+        </td>
+        <td>
+            String 
+        </td>
+        <td>
+            *
+        </td>
+    </tr>
+    
+    
+    <tr>
+        <td>
+            small_icon
+        </td>
+        <td>
+            if is null it's mean R.mipmap.ic_launcer, if not you can select any image from R.drawable.____  
+        </td>
+        <td>
+            
+        </td>
+    </tr>
+    
+    <tr>
+        <td>
+            style
+        </td>
+        <td>
+            "big_text" for Arama Sonuçları Notification.BigTextStyle or you can set null for normal style
+        </td>
+        <td>
+            
+        </td>
+    </tr>
+    
+    <tr>
+        <td>
+            big_text
+        </td>
+        <td>
+            String
+        </td>
+        <td>
+            If you set style of "big_text"
+        </td>
+    </tr>
+    
+    <tr>
+        <td>
+            on_click
+        </td>
+        <td>
+            Default is "open_app" or you can write custom value 
+        </td>
+        <td>
+            
+        </td>
+    </tr>
+    
+    
+    <tr>
+        <td>
+            data
+        </td>
+        <td>
+            Be careful about this variable's type. It is must be String. For example; {\"key\":\"value\",\"key2\":\"value2\"}
+        </td>
+        <td>
+            
+        </td>
+    </tr>
+    
+    </tbody>
+</table>
