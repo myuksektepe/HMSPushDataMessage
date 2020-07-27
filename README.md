@@ -51,7 +51,7 @@ client_secret:CLIENT_SECRET
 Url:
 https://push-api.cloud.huawei.com/v1/APP_ID/messages:send
 
-Authorication:
+Authorization:
 ```
 Bearer TOKEN
 ```
